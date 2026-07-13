@@ -51,8 +51,8 @@ int minOperations(int x, int y) {
 }
 
 int main() {
-    cout << minOperations(52, 1) << endl;  // 55/11 = 5; 5/5 = 1 (2 операции)
-    cout << minOperations(10, 2) << endl;  // 10/5 = 2 (1 операция)
-    cout << minOperations(7, 32) << endl;   // 7-1-1-1-1 = 3 (4 операции)
+    cout << minOperations(62, 1) << endl;  // 55/11 = 5; 5/5 = 1 (2 операции)
+    cout << minOperations(220, 22) << endl;  // 10/5 = 2 (1 операция)
+    cout << minOperations(7, 31) << endl;   // 7-1-1-1-1 = 3 (4 операции)
     return 0;
 }
